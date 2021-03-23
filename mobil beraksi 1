@@ -1,0 +1,33 @@
+/*
+ * nama; mochamad yusril ikhsan
+ * nim; 11200930000098
+ * kelas; 2D
+ */
+package mobilberaksi;
+
+public class mobil1 {
+ String warna;
+    int tahunProduksi;
+
+    void printMobil () {
+        System.out.println ("Warna:" + warna);
+        System.out.println ("Tahun:" + tahunProduksi);
+    }
+}
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+package mobilberaksi;
+
+public class mobil2beraksi {
+
+    public static void main(String[] args) {
+    mobil1 mobilku = new mobil1 ();
+
+	 	mobilku.warna = "ungu";
+	  	mobilku.tahunProduksi = 2000;
+	  	mobilku.printMobil ();
+    }
+    
+}
