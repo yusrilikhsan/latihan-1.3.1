@@ -1,0 +1,39 @@
+/*
+ * nama; mochamad yusril ikhsan
+ * nim; 11200930000098
+ * kelas; 2D
+ */
+package Hp;
+
+public class Handphone {
+    String hidupkan;
+    String LakukanPanggilan;
+    String kirimSMS;
+    String matikan;
+
+    void printHandphone () {
+        System.out.println ("Handphone hidup" + hidupkan);
+        System.out.println ("Kring, kring, kring" + LakukanPanggilan);
+        System.out.println ("Dung, dung" + kirimSMS);
+        System.out.println ("Handphone mati" + matikan);  
+    
+    }
+}
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+package Hp;
+
+public class HandphoneBeraksi {
+
+    public static void main(String[] args) {
+        Handphone handphoneku = new Handphone();
+
+	 	handphoneku.hidupkan = "...";
+	  	handphoneku.LakukanPanggilan = "... panggilan dilakukan";
+	  	handphoneku.kirimSMS = "... SMS berhasil Terkirim";
+                handphoneku.matikan = "...";
+                handphoneku.printHandphone ();   
+    }
+    
+}
