@@ -1,0 +1,40 @@
+/*
+ * nama; mochamad yusril ikhsan
+ * nim; 11200930000098
+ * kelas; 2D
+ */
+package parameter;
+
+public class Matematika {
+
+    void pertambahan (int a, int b) {
+        System.out.println ("Hasil =" + (a + b));
+    }
+    void pengurangan (int a, int b) {
+	System.out.println ("Hasil =" + (a-b));
+    }
+    void perkalian (double a, double b) {
+	System.out.println ("Hasil =" + (a * b));
+    }
+    void pembagian (float a, float b) {
+	System.out.println ("Hasil =" + (a / b));
+    
+ }
+}
+
+
+
+package parameter;
+
+public class MatematikaBeraksi {
+
+    public static void main(String[] args) {
+        Matematika matematikamenyenangkan = new Matematika ();     
+            
+            matematikamenyenangkan.pertambahan (20,20);  
+            matematikamenyenangkan.pengurangan (10,5);  
+            matematikamenyenangkan.perkalian (10,20);  
+            matematikamenyenangkan.pembagian (21,2); 
+    }
+    
+}
