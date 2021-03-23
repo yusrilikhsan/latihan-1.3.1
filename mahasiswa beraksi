@@ -1,0 +1,40 @@
+/*
+ * nama; mochamad yusril ikhsan
+ * nim; 11200930000098
+ * kelas; 2D
+ */
+package Mhs;
+
+public class Mahasiswa {
+    String membaca;
+    int nyontek;
+    String Modifikasi;
+
+
+    void printMahasiswa () {
+        System.out.println ("Cara membaca cepat:\n"
+                            + membaca +"\n"
+                            + membaca +"\n"
+                            + membaca);
+        System.out.println ("Ada" + nyontek + "Cara nyontek yang baik dan benar");
+        System.out.println ("Cara menyimpan contekan agar tidak ketahuan:" + Modifikasi);
+
+}
+}
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+package Mhs;
+
+public class MahasiswaBeraksi {
+
+    public static void main(String[] args) {
+        Mahasiswa mahasiswaku = new Mahasiswa ();
+
+        mahasiswaku.membaca = "Minumlah air putih yang banyak";
+        mahasiswaku.nyontek = 100;
+        mahasiswaku.Modifikasi = "Belajar pangkal pandai!";
+        mahasiswaku.printMahasiswa ();
+    }
+    
+}
